@@ -1,0 +1,6 @@
+const API="http://127.0.0.1:8000/api";
+async function get(path){const r=await fetch(API+path);return r.json()}
+function renderBars(id,items){document.getElementById(id).innerHTML=items.map(x=>`<div class="bar"><label><span>${x.severity||x.category||x.indicator_type||x.tactic}</span><b>${x.count}</b></label><i style="width:${Math.min(100,x.count/10)}%"></i></div>`).join("")}
+async function init(){const s=await get("/dashboard/stats");document.getElementById("cards").innerHTML=Object.entries(s).map(([k,v])=>`<div class="card"><strong>${v}</strong><span>${k.replaceAll("_"," ")}</span></div>`).join("");const t=await get("/dashboard/trends");renderBars("severity",t.severity);renderBars("categories",t.category);const rows=await get("/threats?sort=risk");document.getElementById("threats").innerHTML=rows.slice(0,20).map(r=>`<tr><td>${r.threat_id}</td><td>${r.category}</td><td>${r.indicator_value}</td><td>${r.severity}</td><td>${r.risk_score}</td><td>${r.confidence_score}%</td></tr>`).join("")}
+async function searchIOC(){const q=encodeURIComponent(document.getElementById("ioc").value);document.getElementById("result").textContent=JSON.stringify(await get("/indicators/search?q="+q),null,2)}
+init();

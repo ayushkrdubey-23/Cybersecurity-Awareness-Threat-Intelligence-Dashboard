@@ -1,0 +1,392 @@
+[
+  {
+    "id": 1,
+    "category": "Phishing",
+    "question": "You receive an unexpected urgent password request. What should you do?",
+    "correct": "C",
+    "options": [
+      "A Click immediately",
+      "B Reply with password",
+      "C Verify through an official trusted channel",
+      "D Forward credentials"
+    ],
+    "explanation": "Choose the option that reduces exposure and uses an official trusted verification path."
+  },
+  {
+    "id": 2,
+    "category": "Phishing",
+    "question": "An unexpected attachment arrives from an unknown sender. Best action?",
+    "correct": "B",
+    "options": [
+      "A Open it",
+      "B Verify sender/context and follow policy",
+      "C Disable antivirus",
+      "D Forward it"
+    ],
+    "explanation": "Choose the option that reduces exposure and uses an official trusted verification path."
+  },
+  {
+    "id": 3,
+    "category": "Phishing",
+    "question": "A message asks for payment using urgency. What is safest?",
+    "correct": "D",
+    "options": [
+      "A Pay",
+      "B Reply",
+      "C Share OTP",
+      "D Verify independently"
+    ],
+    "explanation": "Choose the option that reduces exposure and uses an official trusted verification path."
+  },
+  {
+    "id": 4,
+    "category": "Passwords",
+    "question": "Which practice is best?",
+    "correct": "A",
+    "options": [
+      "A Use unique long passwords",
+      "B Reuse one password",
+      "C Share passwords",
+      "D Store passwords in chat"
+    ],
+    "explanation": "Choose the option that reduces exposure and uses an official trusted verification path."
+  },
+  {
+    "id": 5,
+    "category": "Passwords",
+    "question": "A password manager primarily helps with:",
+    "correct": "B",
+    "options": [
+      "A Sending passwords",
+      "B Creating and storing unique credentials securely",
+      "C Removing MFA",
+      "D Publishing passwords"
+    ],
+    "explanation": "Choose the option that reduces exposure and uses an official trusted verification path."
+  },
+  {
+    "id": 6,
+    "category": "Passwords",
+    "question": "Password reuse is risky because:",
+    "correct": "C",
+    "options": [
+      "A It improves security",
+      "B It blocks phishing",
+      "C One breach can expose multiple accounts",
+      "D It encrypts accounts"
+    ],
+    "explanation": "Choose the option that reduces exposure and uses an official trusted verification path."
+  },
+  {
+    "id": 7,
+    "category": "MFA",
+    "question": "MFA adds:",
+    "correct": "A",
+    "options": [
+      "A Another verification factor",
+      "B A public password",
+      "C A firewall rule",
+      "D A backup file"
+    ],
+    "explanation": "Choose the option that reduces exposure and uses an official trusted verification path."
+  },
+  {
+    "id": 8,
+    "category": "MFA",
+    "question": "Which is a phishing-resistant authentication concept?",
+    "correct": "D",
+    "options": [
+      "A Shared password",
+      "B SMS-only password",
+      "C Security question",
+      "D Passkey/WebAuthn"
+    ],
+    "explanation": "Choose the option that reduces exposure and uses an official trusted verification path."
+  },
+  {
+    "id": 9,
+    "category": "Social Engineering",
+    "question": "Authority pressure should cause you to:",
+    "correct": "B",
+    "options": [
+      "A Skip verification",
+      "B Pause and verify",
+      "C Share secrets",
+      "D Disable controls"
+    ],
+    "explanation": "Choose the option that reduces exposure and uses an official trusted verification path."
+  },
+  {
+    "id": 10,
+    "category": "Social Engineering",
+    "question": "A caller asks for an OTP. You should:",
+    "correct": "C",
+    "options": [
+      "A Provide it",
+      "B Post it",
+      "C Refuse and use official support channels",
+      "D Forward it"
+    ],
+    "explanation": "Choose the option that reduces exposure and uses an official trusted verification path."
+  },
+  {
+    "id": 11,
+    "category": "Safe Browsing",
+    "question": "Unexpected downloads should be:",
+    "correct": "A",
+    "options": [
+      "A Avoided or verified before opening",
+      "B Executed immediately",
+      "C Renamed",
+      "D Uploaded publicly"
+    ],
+    "explanation": "Choose the option that reduces exposure and uses an official trusted verification path."
+  },
+  {
+    "id": 12,
+    "category": "Safe Browsing",
+    "question": "HTTPS indicates:",
+    "correct": "D",
+    "options": [
+      "A Site is always safe",
+      "B Site is government-owned",
+      "C Content is malware-free",
+      "D Transport is encrypted; it does not prove trustworthiness"
+    ],
+    "explanation": "Choose the option that reduces exposure and uses an official trusted verification path."
+  },
+  {
+    "id": 13,
+    "category": "Ransomware",
+    "question": "Which helps ransomware resilience?",
+    "correct": "B",
+    "options": [
+      "A No backups",
+      "B Tested backups and least privilege",
+      "C Shared admin accounts",
+      "D Disabled updates"
+    ],
+    "explanation": "Choose the option that reduces exposure and uses an official trusted verification path."
+  },
+  {
+    "id": 14,
+    "category": "Ransomware",
+    "question": "During suspected ransomware, first priority is generally:",
+    "correct": "C",
+    "options": [
+      "A Spread files",
+      "B Ignore it",
+      "C Follow the incident-response plan and report",
+      "D Publish logs"
+    ],
+    "explanation": "Choose the option that reduces exposure and uses an official trusted verification path."
+  },
+  {
+    "id": 15,
+    "category": "Privacy",
+    "question": "Data minimization means:",
+    "correct": "A",
+    "options": [
+      "A Collect only what is necessary",
+      "B Collect everything",
+      "C Share everything",
+      "D Keep data forever"
+    ],
+    "explanation": "Choose the option that reduces exposure and uses an official trusted verification path."
+  },
+  {
+    "id": 16,
+    "category": "Privacy",
+    "question": "A sensitive document should be shared:",
+    "correct": "D",
+    "options": [
+      "A Publicly",
+      "B In a random chat",
+      "C With everyone",
+      "D Only with authorized recipients"
+    ],
+    "explanation": "Choose the option that reduces exposure and uses an official trusted verification path."
+  },
+  {
+    "id": 17,
+    "category": "Wi-Fi",
+    "question": "Public Wi-Fi should be treated as:",
+    "correct": "B",
+    "options": [
+      "A Always trusted",
+      "B An environment requiring caution and approved protections",
+      "C A private LAN",
+      "D A backup network"
+    ],
+    "explanation": "Choose the option that reduces exposure and uses an official trusted verification path."
+  },
+  {
+    "id": 18,
+    "category": "Wi-Fi",
+    "question": "Default router admin credentials should be:",
+    "correct": "A",
+    "options": [
+      "A Changed",
+      "B Shared",
+      "C Posted",
+      "D Reused"
+    ],
+    "explanation": "Choose the option that reduces exposure and uses an official trusted verification path."
+  },
+  {
+    "id": 19,
+    "category": "Mobile Security",
+    "question": "Mobile apps should generally be installed from:",
+    "correct": "C",
+    "options": [
+      "A Unknown links",
+      "B Random files",
+      "C Trusted official sources",
+      "D Email attachments"
+    ],
+    "explanation": "Choose the option that reduces exposure and uses an official trusted verification path."
+  },
+  {
+    "id": 20,
+    "category": "Mobile Security",
+    "question": "A lost device should be:",
+    "correct": "D",
+    "options": [
+      "A Ignored",
+      "B Posted online",
+      "C Given away",
+      "D Reported and secured using organizational procedures"
+    ],
+    "explanation": "Choose the option that reduces exposure and uses an official trusted verification path."
+  },
+  {
+    "id": 21,
+    "category": "Incident Reporting",
+    "question": "A suspected phishing message should be:",
+    "correct": "A",
+    "options": [
+      "A Reported through the official channel",
+      "B Replied to",
+      "C Forwarded externally",
+      "D Deleted without reporting"
+    ],
+    "explanation": "Choose the option that reduces exposure and uses an official trusted verification path."
+  },
+  {
+    "id": 22,
+    "category": "Incident Reporting",
+    "question": "Why preserve relevant evidence?",
+    "correct": "B",
+    "options": [
+      "A To share publicly",
+      "B It can support investigation",
+      "C To increase panic",
+      "D To bypass controls"
+    ],
+    "explanation": "Choose the option that reduces exposure and uses an official trusted verification path."
+  },
+  {
+    "id": 23,
+    "category": "Cloud Account Security",
+    "question": "Least privilege means:",
+    "correct": "C",
+    "options": [
+      "A Everyone is admin",
+      "B No accounts exist",
+      "C Users receive only needed access",
+      "D Passwords are public"
+    ],
+    "explanation": "Choose the option that reduces exposure and uses an official trusted verification path."
+  },
+  {
+    "id": 24,
+    "category": "Cloud Account Security",
+    "question": "Cloud logs help with:",
+    "correct": "D",
+    "options": [
+      "A Entertainment",
+      "B Removing MFA",
+      "C Hiding events",
+      "D Detection and investigation"
+    ],
+    "explanation": "Choose the option that reduces exposure and uses an official trusted verification path."
+  },
+  {
+    "id": 25,
+    "category": "Software Updates",
+    "question": "Security patches should be:",
+    "correct": "A",
+    "options": [
+      "A Applied according to risk and approved change processes",
+      "B Ignored",
+      "C Delayed forever",
+      "D Removed"
+    ],
+    "explanation": "Choose the option that reduces exposure and uses an official trusted verification path."
+  },
+  {
+    "id": 26,
+    "category": "Software Updates",
+    "question": "Unsupported software creates:",
+    "correct": "C",
+    "options": [
+      "A Guaranteed safety",
+      "B More backups",
+      "C Increased security risk",
+      "D Better MFA"
+    ],
+    "explanation": "Choose the option that reduces exposure and uses an official trusted verification path."
+  },
+  {
+    "id": 27,
+    "category": "AI Scams",
+    "question": "AI-generated voice or text should be:",
+    "correct": "B",
+    "options": [
+      "A Trusted automatically",
+      "B Independently verified when requests are sensitive",
+      "C Shared widely",
+      "D Treated as proof"
+    ],
+    "explanation": "Choose the option that reduces exposure and uses an official trusted verification path."
+  },
+  {
+    "id": 28,
+    "category": "AI Scams",
+    "question": "A personalized scam can still be:",
+    "correct": "D",
+    "options": [
+      "A Guaranteed real",
+      "B Safe",
+      "C Official",
+      "D Deceptive"
+    ],
+    "explanation": "Choose the option that reduces exposure and uses an official trusted verification path."
+  },
+  {
+    "id": 29,
+    "category": "Passwords",
+    "question": "MFA plus a strong unique password is generally:",
+    "correct": "C",
+    "options": [
+      "A Weaker",
+      "B Unrelated",
+      "C Safer than password alone",
+      "D A replacement for all security controls"
+    ],
+    "explanation": "Choose the option that reduces exposure and uses an official trusted verification path."
+  },
+  {
+    "id": 30,
+    "category": "Phishing",
+    "question": "A QR code in an unexpected message should be:",
+    "correct": "A",
+    "options": [
+      "A Treated cautiously and verified before use",
+      "B Scanned immediately",
+      "C Shared",
+      "D Used for payment"
+    ],
+    "explanation": "Choose the option that reduces exposure and uses an official trusted verification path."
+  }
+]

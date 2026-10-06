@@ -1,0 +1,6 @@
+cve_id,product_category,severity,cvss_score,published_date,patch_available,exploitation_status_demo,description,priority_score
+CVE-2026-1001,Web Application,CRITICAL,9.8,2026-02-10,1,NO EVIDENCE IN DEMO, synthetic vulnerability awareness record,92.0
+CVE-2026-1002,Identity Platform,HIGH,8.4,2026-03-02,1,DEMO WATCHLIST, synthetic vulnerability awareness record,82.5
+CVE-2026-1003,Endpoint Software,MEDIUM,6.5,2026-03-18,1,NO EVIDENCE IN DEMO, synthetic vulnerability awareness record,61.0
+CVE-2026-1004,Network Appliance,HIGH,8.8,2026-04-11,0,DEMO WATCHLIST, synthetic vulnerability awareness record,79.0
+CVE-2026-1005,Cloud Service,LOW,3.7,2026-05-21,1,NO EVIDENCE IN DEMO, synthetic vulnerability awareness record,38.0

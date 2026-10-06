@@ -1,0 +1,1 @@
+const API="http://127.0.0.1:8000/api";async function loadThreat(){const id=document.getElementById("tid").value.trim();const r=await fetch(API+"/threats/"+id);document.getElementById("detail").textContent=JSON.stringify(await r.json(),null,2)}

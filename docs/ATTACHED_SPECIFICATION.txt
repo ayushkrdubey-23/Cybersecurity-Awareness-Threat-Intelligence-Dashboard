@@ -1,0 +1,2094 @@
+Project Title
+Cybersecurity Awareness & Threat Intelligence Dashboard
+Objective
+Build a unified dashboard that ingests threat-intel feeds (IOCs, CVEs, trending malware TTPs) and internal signals, normalizes and enriches them, scores organizational risk, and delivers bite-sized awareness content and remediation tasks to users and admins.
+Industry Relevance
+Modern SOCs and IT teams blend external threat intelligence with internal telemetry for faster detection and better hygiene. Pairing actionable IOCs/CVEs with awareness nudges reduces phishing clicks, patch delay, and incident response time across enterprises, universities, and SMBs.
+
+Prompt
+You are an expert Cybersecurity Engineer, SOC Analyst, Threat Intelligence Analyst,
+Cyber Threat Intelligence (CTI) Specialist, Security Awareness Specialist,
+Incident Response Analyst, Python Developer, Security Data Analyst,
+Defensive Security Engineer, and GitHub Mentor.
+
+Your task is to help me build a COMPLETE industry-oriented Cybersecurity project titled:
+
+“Cybersecurity Awareness & Threat Intelligence Dashboard”
+
+IMPORTANT CONTEXT:
+
+- I am a student.
+- This is a CYBERSECURITY course project.
+- I want strong GitHub and LinkedIn proof of work.
+- I am a beginner, so explain everything step-by-step.
+- This must be a DEFENSIVE cybersecurity project.
+- Use synthetic, fictional, sanitized, or reputable public defensive-security data.
+- Do NOT provide malware execution functionality.
+- Do NOT create phishing pages.
+- Do NOT exploit vulnerabilities.
+- Do NOT attack, scan, or probe external systems.
+- Do NOT provide harmful payloads.
+- Do NOT contact suspicious domains/IPs automatically.
+- Indicators must be analyzed as data rather than actively interacted with.
+- The entire project should work with synthetic/local data even if no external API is available.
+
+PROJECT OBJECTIVE:
+
+Build a Cybersecurity Awareness & Threat Intelligence Dashboard that collects,
+processes, categorizes, scores, visualizes, and explains defensive threat
+intelligence while also teaching users how to recognize common cybersecurity threats.
+
+The platform should support:
+
+1. Threat intelligence feed
+2. IOC dashboard
+3. Threat category analysis
+4. IP indicator analysis
+5. Domain indicator analysis
+6. URL indicator analysis
+7. File-hash indicator analysis
+8. Vulnerability/CVE awareness
+9. Threat severity scoring
+10. Threat trend analysis
+11. MITRE ATT&CK mapping
+12. Security alerts
+13. Threat search
+14. Threat filtering
+15. Awareness learning center
+16. Security quizzes
+17. Awareness score
+18. Incident-awareness guidance
+19. SOC-style investigation view
+20. Executive cybersecurity summary
+
+Threat categories:
+
+PHISHING
+MALWARE
+RANSOMWARE
+CREDENTIAL THREATS
+WEB THREATS
+NETWORK THREATS
+VULNERABILITY EXPOSURE
+SOCIAL ENGINEERING
+DATA EXPOSURE
+ACCOUNT SECURITY
+
+Indicator types:
+
+IP ADDRESS
+DOMAIN
+URL
+FILE HASH
+EMAIL/SENDER DOMAIN
+CVE ID
+
+Threat severities:
+
+INFORMATIONAL
+LOW
+MEDIUM
+HIGH
+CRITICAL
+
+IMPORTANT:
+
+The dashboard must clearly distinguish:
+
+OBSERVATION
+INDICATOR
+ALERT
+THREAT
+INCIDENT
+
+Do not label every suspicious indicator as a confirmed attack.
+
+==================================================
+1. PROJECT EXPLANATION
+==================================================
+
+Explain:
+
+- What is cybersecurity awareness?
+- What is cyber threat intelligence?
+- What is an IOC?
+- What is an IOA?
+- What is a vulnerability?
+- What is a CVE?
+- What is CVSS?
+- What is a threat feed?
+- What is a threat actor conceptually?
+- What is TTP?
+- What is MITRE ATT&CK?
+- What is threat enrichment?
+- What is threat correlation?
+- What is threat hunting?
+- What is a SOC?
+
+Give:
+
+A. Simple Explanation
+
+B. Technical Explanation
+
+Explain complete workflow:
+
+Threat Data / Synthetic Feed
+↓
+Data Collection
+↓
+Normalization
+↓
+Validation
+↓
+IOC Extraction
+↓
+Threat Classification
+↓
+Risk / Severity Scoring
+↓
+MITRE ATT&CK Mapping where justified
+↓
+Threat Database
+↓
+Correlation
+↓
+SOC Dashboard
+↓
+Security Awareness Module
+↓
+Analyst / User
+
+==================================================
+2. CYBERSECURITY AWARENESS VS THREAT INTELLIGENCE
+==================================================
+
+Explain:
+
+CYBERSECURITY AWARENESS:
+
+Helps people recognize and avoid security risks.
+
+Examples:
+
+- Phishing awareness
+- Password security
+- MFA
+- Safe browsing
+- Social engineering
+- Software updates
+- Secure Wi-Fi
+- Data privacy
+- Suspicious attachments
+- Reporting incidents
+
+THREAT INTELLIGENCE:
+
+Collects and analyzes information about cybersecurity threats to support
+defensive decision-making.
+
+Explain how this project combines:
+
+HUMAN DEFENSE
++
+TECHNICAL THREAT INTELLIGENCE
+
+==================================================
+3. INDUSTRY RELEVANCE
+==================================================
+
+Explain how threat-intelligence dashboards are relevant to:
+
+- Security Operations Centers
+- Banks
+- Cloud companies
+- IT enterprises
+- Government organizations
+- E-commerce
+- Healthcare
+- Universities
+- Managed Security Service Providers
+- Cybersecurity consulting
+
+Explain roles:
+
+SOC Analyst
+
+Cybersecurity Analyst
+
+Threat Intelligence Analyst
+
+Incident Response Analyst
+
+Security Engineer
+
+Vulnerability Analyst
+
+Security Awareness Specialist
+
+Threat Hunter
+
+Explain how this project demonstrates skills relevant to these roles.
+
+==================================================
+4. THREAT INTELLIGENCE TYPES
+==================================================
+
+Explain:
+
+STRATEGIC THREAT INTELLIGENCE
+
+TACTICAL THREAT INTELLIGENCE
+
+OPERATIONAL THREAT INTELLIGENCE
+
+TECHNICAL THREAT INTELLIGENCE
+
+Give simple examples.
+
+Explain that this student project focuses primarily on:
+
+Technical
++
+Tactical
++
+Awareness-oriented intelligence.
+
+==================================================
+5. SYNTHETIC THREAT INTELLIGENCE DATASET
+==================================================
+
+Generate at least 2,000 safe synthetic threat records.
+
+Fields:
+
+threat_id
+timestamp
+threat_name
+threat_category
+indicator_type
+indicator_value
+source_name
+confidence_score
+severity
+risk_score
+status
+first_seen
+last_seen
+country_or_region_optional
+description
+mitre_tactic_optional
+mitre_technique_optional
+cve_id_optional
+
+Statuses:
+
+NEW
+UNDER_REVIEW
+MONITORING
+CLOSED
+FALSE_POSITIVE
+
+Use safe reserved/example indicators.
+
+For IP addresses use documentation ranges such as:
+
+192.0.2.0/24
+198.51.100.0/24
+203.0.113.0/24
+
+For domains use:
+
+example.com
+example.org
+example.net
+*.invalid
+
+For URLs use fictional/safe examples only.
+
+For file hashes:
+
+Generate random synthetic SHA-256-style strings.
+
+Clearly label them:
+
+SYNTHETIC / DEMO ONLY
+
+Do NOT include active malicious URLs.
+
+Save:
+
+data/threat_intelligence_dataset.csv
+
+Provide complete generator code.
+
+==================================================
+6. IOC EXPLANATION
+==================================================
+
+Explain:
+
+IOC = Indicator of Compromise
+
+Possible examples:
+
+IP address
+Domain
+URL
+File hash
+Email sender/domain
+
+Explain an important limitation:
+
+An IOC can become stale, be shared by benign infrastructure, or lack sufficient
+context.
+
+Therefore:
+
+IOC MATCH ≠ AUTOMATIC CONFIRMED COMPROMISE
+
+Create IOC lifecycle:
+
+Observed
+↓
+Validated
+↓
+Enriched
+↓
+Scored
+↓
+Investigated
+↓
+Monitored
+↓
+Expired/Closed
+
+==================================================
+7. IOC VALIDATION ENGINE
+==================================================
+
+Create:
+
+validate_indicator()
+
+Validate formats for:
+
+IPv4
+IPv6
+Domain
+URL
+MD5-format hash
+SHA-1-format hash
+SHA-256-format hash
+CVE ID
+
+IMPORTANT:
+
+Validation means:
+
+“Is this syntactically valid?”
+
+NOT:
+
+“Is this malicious?”
+
+Return:
+
+valid
+indicator_type
+normalized_value
+validation_notes
+
+==================================================
+8. IOC SEARCH TOOL
+==================================================
+
+Create dashboard search:
+
+Search Indicator:
+[________________]
+
+Supported:
+
+IP
+Domain
+URL
+Hash
+CVE
+
+Example:
+
+198.51.100.25
+
+Result:
+
+Indicator Type:
+IP
+
+Known in Demo Dataset:
+YES
+
+Risk:
+78/100
+
+Severity:
+HIGH
+
+Confidence:
+85%
+
+Associated Category:
+PHISHING INFRASTRUCTURE
+
+First Seen:
+Demo Date
+
+Last Seen:
+Demo Date
+
+Status:
+MONITORING
+
+IMPORTANT:
+
+Do not automatically connect to searched IP/domain/URL.
+
+Perform database lookup only.
+
+==================================================
+9. THREAT ENRICHMENT ENGINE
+==================================================
+
+Create:
+
+enrich_indicator()
+
+Using LOCAL synthetic data, enrich indicator with:
+
+- indicator type
+- first seen
+- last seen
+- associated categories
+- confidence
+- severity
+- risk score
+- related alerts
+- related indicators
+- MITRE mapping if available
+- analyst notes
+
+Optional future integrations can be discussed conceptually.
+
+The project must still work without internet/API keys.
+
+==================================================
+10. THREAT RISK SCORING
+==================================================
+
+Create:
+
+calculate_threat_risk()
+
+Use factors:
+
+Severity
+
+Confidence
+
+Recency
+
+Number of observations
+
+Source reliability
+
+Related alerts
+
+Context
+
+Example conceptual weighting:
+
+Severity:
+30%
+
+Confidence:
+25%
+
+Recency:
+15%
+
+Observation Frequency:
+10%
+
+Source Reliability:
+10%
+
+Context/Correlation:
+10%
+
+Score:
+
+0–100
+
+Classification:
+
+0–20:
+INFORMATIONAL
+
+21–40:
+LOW
+
+41–60:
+MEDIUM
+
+61–80:
+HIGH
+
+81–100:
+CRITICAL
+
+Explain:
+
+High risk does NOT automatically mean confirmed compromise.
+
+==================================================
+11. CONFIDENCE SCORING
+==================================================
+
+Create confidence score:
+
+0–100
+
+Explain difference:
+
+RISK SCORE:
+How concerning the indicator/event may be.
+
+CONFIDENCE SCORE:
+How confident the system is in the available intelligence.
+
+Example:
+
+Risk:
+90
+
+Confidence:
+25
+
+Interpretation:
+
+Potentially serious, but evidence quality is weak.
+
+Another:
+
+Risk:
+70
+
+Confidence:
+95
+
+Interpretation:
+
+High-confidence intelligence with meaningful risk.
+
+==================================================
+12. SOURCE RELIABILITY
+==================================================
+
+Create synthetic intelligence sources:
+
+Internal SOC
+Security Vendor
+Public Threat Feed
+Research Report
+Community Submission
+Unknown Source
+
+Create source reliability levels:
+
+A – Highly Reliable
+B – Usually Reliable
+C – Fairly Reliable
+D – Reliability Unknown
+
+Explain that reliability of a source and confidence in a specific intelligence
+item are related but distinct concepts.
+
+==================================================
+13. THREAT CATEGORIES
+==================================================
+
+Create categories:
+
+Phishing
+
+Malware
+
+Ransomware
+
+Credential Theft
+
+Social Engineering
+
+Network Threats
+
+Web Threats
+
+Data Exposure
+
+Account Takeover Risk
+
+Vulnerability Exploitation Awareness
+
+For each explain:
+
+- Description
+- Common indicators
+- Potential impact
+- Defensive controls
+- Awareness recommendations
+
+Do not provide exploitation instructions.
+
+==================================================
+14. MITRE ATT&CK INTEGRATION
+==================================================
+
+Explain:
+
+MITRE ATT&CK provides a knowledge base for adversary behaviors.
+
+Explain:
+
+TACTIC:
+Why an adversary performs an action.
+
+TECHNIQUE:
+How the objective may be achieved.
+
+SUB-TECHNIQUE:
+More specific implementation.
+
+Map synthetic threat records to ATT&CK only when sufficient context exists.
+
+Examples of high-level categories can include:
+
+Phishing
+
+Credential Access
+
+Initial Access
+
+Persistence
+
+Discovery
+
+Command and Control
+
+Exfiltration
+
+IMPORTANT:
+
+Use current ATT&CK terminology available to you.
+
+Do not invent technique IDs when uncertain.
+
+Explain:
+
+IOC tells us WHAT artifact was observed.
+
+ATT&CK can help describe HOW behavior relates to adversary techniques.
+
+==================================================
+15. MITRE ATT&CK VISUALIZATION
+==================================================
+
+Create:
+
+Top ATT&CK Tactics
+
+Top Techniques
+
+Threats by Tactic
+
+Technique Frequency
+
+Allow analyst to click:
+
+Technique
+↓
+Associated synthetic threat records
+
+Do not imply mapping when evidence is insufficient.
+
+==================================================
+16. CVE & VULNERABILITY AWARENESS MODULE
+==================================================
+
+Explain:
+
+CVE
+CVSS
+Vulnerability
+Patch
+Exploit conceptually
+Zero-day conceptually
+
+Create safe synthetic vulnerability records:
+
+cve_id
+product_category
+severity
+cvss_score
+published_date
+patch_available
+exploitation_status_demo
+description
+
+Use clearly synthetic entries unless using reputable public vulnerability data.
+
+If using real CVEs:
+
+Use them only for defensive awareness.
+
+Do not provide exploitation instructions.
+
+==================================================
+17. VULNERABILITY PRIORITIZATION
+==================================================
+
+Explain why:
+
+CVSS alone should not always determine patch priority.
+
+Consider:
+
+CVSS
++
+Asset Criticality
++
+Exposure
++
+Known Exploitation Evidence
++
+Business Context
+=
+Better Prioritization
+
+Create:
+
+calculate_vulnerability_priority()
+
+Example:
+
+Critical CVSS
+but isolated test asset
+
+vs
+
+High CVSS
+on internet-facing critical system
+
+Explain contextual prioritization.
+
+==================================================
+18. THREAT CORRELATION
+==================================================
+
+Create:
+
+correlate_threats()
+
+Example:
+
+Indicator A:
+Domain
+
+Indicator B:
+IP
+
+Indicator C:
+File Hash
+
+If records share:
+
+same campaign_id
+same observation window
+same category
+same analyst correlation
+
+Group into:
+
+RELATED THREAT CLUSTER
+
+IMPORTANT:
+
+Correlation indicates relationship/evidence, not guaranteed attribution.
+
+==================================================
+19. THREAT TIMELINE
+==================================================
+
+Create:
+
+First Seen
+↓
+New Observations
+↓
+Risk Increase/Decrease
+↓
+Investigation
+↓
+Monitoring
+↓
+Closed
+
+Display timeline for each threat.
+
+==================================================
+20. THREAT INTELLIGENCE DASHBOARD
+==================================================
+
+Create professional SOC-style dashboard.
+
+TOP CARDS:
+
+Total Threat Records
+
+Critical Threats
+
+High Threats
+
+Active Indicators
+
+Open Investigations
+
+Average Confidence
+
+Vulnerabilities Tracked
+
+Charts:
+
+1. Threats Over Time
+2. Threats by Severity
+3. Threats by Category
+4. IOC Type Distribution
+5. Top ATT&CK Tactics
+6. Risk Score Distribution
+7. Confidence Distribution
+8. Vulnerabilities by Severity
+9. Top Threat Categories
+10. Threat Status Distribution
+
+==================================================
+21. RECENT THREAT TABLE
+==================================================
+
+Display:
+
+Threat ID
+Threat Name
+Category
+Indicator
+Severity
+Risk
+Confidence
+First Seen
+Last Seen
+Status
+
+Filters:
+
+Severity
+Category
+Indicator Type
+Risk
+Confidence
+Status
+Date
+
+Sorting:
+
+Newest
+Highest Risk
+Highest Confidence
+Most Observed
+
+==================================================
+22. THREAT DETAIL PAGE
+==================================================
+
+When analyst clicks a threat, show:
+
+Threat ID
+
+Threat Name
+
+Category
+
+Description
+
+Indicator Type
+
+Indicator Value
+
+Severity
+
+Risk Score
+
+Confidence Score
+
+Source
+
+Source Reliability
+
+First Seen
+
+Last Seen
+
+Related Indicators
+
+Related Alerts
+
+ATT&CK Mapping
+
+CVE Association if relevant
+
+Analyst Notes
+
+Status
+
+Recommended Defensive Actions
+
+==================================================
+23. SECURITY AWARENESS CENTER
+==================================================
+
+Create an educational section:
+
+“Cybersecurity Awareness Center”
+
+Modules:
+
+1. Phishing Awareness
+2. Password Security
+3. MFA
+4. Social Engineering
+5. Safe Browsing
+6. Secure Wi-Fi
+7. Software Updates
+8. Ransomware Awareness
+9. USB / Removable Media Safety
+10. Data Privacy
+11. Mobile Security
+12. Remote Work Security
+13. Cloud Account Security
+14. Incident Reporting
+15. AI-Enabled Scam Awareness
+
+Each module should include:
+
+What is it?
+
+Why does it matter?
+
+Warning signs
+
+Safe practices
+
+What to do if something happens
+
+==================================================
+24. PHISHING AWARENESS MODULE
+==================================================
+
+Teach users to identify:
+
+Suspicious sender
+
+Urgency
+
+Credential request
+
+Unexpected attachment
+
+Suspicious link
+
+Payment request
+
+Impersonation
+
+Unexpected QR code
+
+Give safe examples.
+
+Do not create real phishing templates.
+
+==================================================
+25. PASSWORD & MFA AWARENESS
+==================================================
+
+Teach:
+
+Unique passwords
+
+Password managers
+
+Long passwords/passphrases
+
+Password reuse risk
+
+MFA
+
+Phishing-resistant authentication concepts
+
+Passkeys/WebAuthn awareness
+
+Explain why:
+
+Strong Password + MFA
+
+is generally safer than password alone.
+
+==================================================
+26. RANSOMWARE AWARENESS
+==================================================
+
+Explain ransomware at a defensive high level.
+
+Discuss:
+
+Common impact:
+
+File encryption
+Service disruption
+Data theft/extortion risk
+Operational downtime
+
+Defensive practices:
+
+Backups
+Patching
+Least privilege
+Email security
+Endpoint protection
+Network segmentation
+MFA
+Monitoring
+Incident response preparation
+
+Do not provide ransomware code.
+
+==================================================
+27. SECURITY AWARENESS QUIZ
+==================================================
+
+Create at least 30 questions.
+
+Categories:
+
+Phishing
+Passwords
+MFA
+Social Engineering
+Safe Browsing
+Ransomware
+Privacy
+Wi-Fi
+Mobile Security
+Incident Reporting
+
+Example:
+
+QUESTION:
+
+You receive an unexpected message asking you to urgently verify your password.
+What should you do?
+
+A. Click immediately
+B. Reply with password
+C. Verify through an official trusted channel
+D. Forward credentials
+
+Correct:
+C
+
+Explain why.
+
+==================================================
+28. AWARENESS SCORE
+==================================================
+
+After quiz:
+
+Score:
+0–100
+
+Example:
+
+0–40:
+Needs Improvement
+
+41–60:
+Basic Awareness
+
+61–80:
+Good Awareness
+
+81–100:
+Strong Awareness
+
+Show:
+
+Overall Score
+
+Category Scores
+
+Weakest Areas
+
+Recommended Learning Modules
+
+IMPORTANT:
+
+This is an educational score, not an employee fitness or competency judgment.
+
+==================================================
+29. PERSONALIZED LEARNING RECOMMENDATIONS
+==================================================
+
+Example:
+
+Phishing:
+40%
+
+Recommendation:
+Complete Phishing Awareness Module.
+
+Password Security:
+90%
+
+No immediate module required.
+
+Social Engineering:
+55%
+
+Recommendation:
+Review Social Engineering Awareness.
+
+Create:
+
+generate_learning_recommendations()
+
+==================================================
+30. EXECUTIVE CYBERSECURITY SUMMARY
+==================================================
+
+Create management view.
+
+Show:
+
+Threat Landscape Summary
+
+Critical/High Threat Count
+
+Top Threat Categories
+
+Top Vulnerability Categories
+
+Awareness Score Trend
+
+Top Awareness Weaknesses
+
+Recommended Defensive Priorities
+
+IMPORTANT:
+
+Keep executive summary understandable to non-technical stakeholders.
+
+==================================================
+31. ALERT ENGINE
+==================================================
+
+Create:
+
+generate_threat_alert()
+
+Generate alerts based on:
+
+Risk threshold
+Confidence threshold
+High-priority vulnerability
+Repeated observations
+Correlated indicators
+
+Fields:
+
+alert_id
+threat_id
+timestamp
+alert_type
+severity
+risk_score
+confidence_score
+description
+status
+
+Statuses:
+
+NEW
+INVESTIGATING
+MONITORING
+RESOLVED
+FALSE_POSITIVE
+
+==================================================
+32. ALERT CORRELATION
+==================================================
+
+Prevent duplicate alert overload.
+
+Example:
+
+Same indicator observed 100 times in 5 minutes.
+
+Instead of:
+
+100 separate analyst alerts
+
+Create:
+
+1 correlated alert
++
+Observation Count = 100
+
+Implement:
+
+correlate_alerts()
+
+Explain alert fatigue.
+
+==================================================
+33. SOC INVESTIGATION WORKFLOW
+==================================================
+
+Create:
+
+Threat Feed
+↓
+IOC Detected
+↓
+Validation
+↓
+Enrichment
+↓
+Risk + Confidence
+↓
+Alert
+↓
+SOC Queue
+↓
+Analyst Triage
+↓
+Correlation
+↓
+Investigation
+↓
+Escalate / Monitor / Resolve / False Positive
+↓
+Documentation
+
+Explain Tier 1 SOC analyst workflow.
+
+==================================================
+34. INCIDENT RESPONSE AWARENESS
+==================================================
+
+Explain high-level incident-response lifecycle:
+
+Preparation
+
+Detection / Identification
+
+Containment
+
+Eradication
+
+Recovery
+
+Lessons Learned
+
+Explain that exact frameworks may use different terminology.
+
+Create educational incident-response checklist.
+
+Do NOT include destructive response actions.
+
+==================================================
+35. DATABASE DESIGN
+==================================================
+
+Create tables:
+
+THREATS
+
+threat_id
+threat_name
+category
+description
+severity
+risk_score
+confidence_score
+status
+first_seen
+last_seen
+
+INDICATORS
+
+indicator_id
+threat_id
+indicator_type
+indicator_value
+first_seen
+last_seen
+
+SOURCES
+
+source_id
+source_name
+reliability
+
+ATTACK_MAPPINGS
+
+mapping_id
+threat_id
+tactic
+technique
+technique_id_optional
+
+VULNERABILITIES
+
+vulnerability_id
+cve_id
+severity
+cvss_score
+patch_available
+priority_score
+
+ALERTS
+
+alert_id
+threat_id
+severity
+risk_score
+status
+created_at
+
+ANALYST_NOTES
+
+note_id
+threat_id
+note
+created_at
+
+AWARENESS_MODULES
+
+module_id
+title
+category
+
+QUIZ_RESULTS
+
+result_id
+anonymous_user_id_optional
+overall_score
+created_at
+
+Explain relationships and indexes.
+
+==================================================
+36. REST API DESIGN
+==================================================
+
+Create:
+
+GET /api/threats
+
+GET /api/threats/{id}
+
+POST /api/threats
+
+PUT /api/threats/{id}
+
+GET /api/indicators/search
+
+GET /api/dashboard/stats
+
+GET /api/dashboard/trends
+
+GET /api/alerts
+
+PUT /api/alerts/{id}/status
+
+POST /api/threats/{id}/notes
+
+GET /api/vulnerabilities
+
+GET /api/awareness/modules
+
+GET /api/quiz
+
+POST /api/quiz/submit
+
+For each explain:
+
+Method
+Endpoint
+Request
+Response
+Validation
+Authentication
+Authorization
+Status Codes
+Error Handling
+
+==================================================
+37. SYSTEM ARCHITECTURE
+==================================================
+
+Create:
+
+Synthetic/Public Defensive Threat Data
+                ↓
+        Data Ingestion Layer
+                ↓
+           Normalization
+                ↓
+      IOC Validation/Extraction
+                ↓
+        Threat Enrichment
+                ↓
+     Risk + Confidence Engine
+                ↓
+        Correlation Engine
+                ↓
+ ┌──────────────┼─────────────────┐
+ ↓              ↓                 ↓
+Threat DB    Alert Engine     ATT&CK Mapping
+ ↓              ↓                 ↓
+ └──────────────┼─────────────────┘
+                ↓
+           SOC Dashboard
+                ↓
+             Analyst
+
+Parallel:
+
+Awareness Content
+       ↓
+Learning Modules
+       ↓
+Quiz Engine
+       ↓
+Awareness Score
+       ↓
+Recommendations
+
+==================================================
+38. TECHNOLOGY STACK
+==================================================
+
+OPTION A – BEGINNER:
+
+Frontend:
+HTML
+CSS
+JavaScript
+
+Backend:
+Python Flask
+
+Database:
+SQLite
+
+Analytics:
+Pandas
+
+Charts:
+Chart.js
+
+OPTION B – MODERN:
+
+Frontend:
+React
+
+Backend:
+FastAPI
+
+Database:
+PostgreSQL
+
+Analytics:
+Pandas
+
+Charts:
+Recharts
+
+OPTION C – ADVANCED:
+
+React
+FastAPI
+PostgreSQL
+Redis
+Docker
+
+Recommend best student implementation.
+
+==================================================
+39. PROJECT FOLDER STRUCTURE
+==================================================
+
+Create:
+
+Cybersecurity-Threat-Intelligence-Dashboard/
+
+│
+├── backend/
+│   ├── app.py
+│   ├── routes/
+│   ├── models/
+│   ├── services/
+│   │   ├── threat_service.py
+│   │   ├── ioc_validator.py
+│   │   ├── enrichment_engine.py
+│   │   ├── risk_engine.py
+│   │   ├── correlation_engine.py
+│   │   ├── alert_engine.py
+│   │   └── attack_mapper.py
+│   └── utils/
+│
+├── frontend/
+│   ├── index.html
+│   ├── threat-dashboard.html
+│   ├── threat-details.html
+│   ├── awareness.html
+│   ├── quiz.html
+│   ├── css/
+│   └── js/
+│
+├── awareness/
+│   ├── modules.json
+│   └── quiz_questions.json
+│
+├── data/
+│   ├── generate_threat_data.py
+│   ├── threat_intelligence_dataset.csv
+│   └── vulnerabilities.csv
+│
+├── tests/
+├── screenshots/
+├── reports/
+├── docs/
+├── README.md
+├── requirements.txt
+├── .env.example
+└── .gitignore
+
+Explain every folder.
+
+==================================================
+40. COMPLETE SOURCE CODE
+==================================================
+
+Now provide COMPLETE SOURCE CODE.
+
+Do NOT provide partial snippets.
+
+For EVERY file provide:
+
+FILE NAME:
+FILE PATH:
+PURPOSE:
+COMPLETE CODE:
+
+Include:
+
+- synthetic threat-data generator
+- IOC validator
+- threat normalization
+- enrichment engine
+- risk scoring
+- confidence scoring
+- source reliability
+- correlation engine
+- alert engine
+- ATT&CK mapping
+- vulnerability module
+- database
+- REST API
+- SOC dashboard
+- threat-detail page
+- IOC search
+- awareness center
+- 30+ question quiz
+- awareness scoring
+- personalized recommendations
+- executive dashboard
+- tests
+- requirements.txt
+- .env.example
+- .gitignore
+
+Code must be:
+
+- modular
+- clean
+- commented
+- executable
+- beginner-friendly
+- defensive
+- industry-style
+
+==================================================
+41. LOCAL EXECUTION
+==================================================
+
+Give exact commands.
+
+STEP 1:
+Create project folder.
+
+STEP 2:
+Create Python virtual environment.
+
+STEP 3:
+Install dependencies.
+
+STEP 4:
+Generate synthetic threat data.
+
+STEP 5:
+Initialize database.
+
+STEP 6:
+Start backend.
+
+STEP 7:
+Start frontend.
+
+STEP 8:
+Open threat dashboard.
+
+STEP 9:
+Search synthetic IOC.
+
+STEP 10:
+Open threat details.
+
+STEP 11:
+Review ATT&CK mapping.
+
+STEP 12:
+Review vulnerabilities.
+
+STEP 13:
+Open Awareness Center.
+
+STEP 14:
+Complete quiz.
+
+STEP 15:
+View awareness score.
+
+Provide exact commands.
+
+==================================================
+42. SAFE DEMONSTRATION SCENARIO
+==================================================
+
+Create fictional threat:
+
+Threat ID:
+THR-2026-001
+
+Threat Name:
+Synthetic Credential Phishing Campaign
+
+Category:
+PHISHING
+
+Indicator Type:
+DOMAIN
+
+Indicator:
+login-check.invalid
+
+Severity:
+HIGH
+
+Risk:
+78/100
+
+Confidence:
+85/100
+
+First Seen:
+Synthetic date
+
+Status:
+MONITORING
+
+Related Indicator:
+
+198.51.100.25
+
+ATT&CK Mapping:
+
+Map only if justified using current terminology.
+
+Analyst Notes:
+
+“Indicator appears in multiple synthetic phishing observations.”
+
+Recommended Actions:
+
+- Review related internal logs
+- Check for authorized sightings
+- Review email-security telemetry
+- Increase phishing awareness
+- Monitor for related indicators
+
+Do NOT visit the domain.
+
+==================================================
+43. TESTING STRATEGY
+==================================================
+
+Create at least 35 tests:
+
+1. Valid IPv4
+2. Invalid IPv4
+3. Valid IPv6
+4. Valid domain
+5. Invalid domain
+6. Valid URL
+7. Valid MD5-format hash
+8. Valid SHA1-format hash
+9. Valid SHA256-format hash
+10. Valid CVE format
+11. Invalid CVE format
+12. Threat creation
+13. Risk calculation
+14. Confidence calculation
+15. Source reliability
+16. IOC enrichment
+17. Indicator search
+18. Threat correlation
+19. Duplicate observation
+20. Alert generation
+21. Alert correlation
+22. Alert status update
+23. Analyst notes
+24. ATT&CK mapping
+25. Vulnerability scoring
+26. Dashboard statistics
+27. Severity filtering
+28. Category filtering
+29. Threat sorting
+30. Awareness module retrieval
+31. Quiz scoring
+32. Learning recommendation
+33. Empty dataset
+34. API validation
+35. Database persistence
+
+For each provide:
+
+Test ID
+Scenario
+Input
+Expected Result
+Actual Result
+Pass/Fail
+
+Provide automated unit tests.
+
+==================================================
+44. SECURITY & PRIVACY
+==================================================
+
+Explain:
+
+- Never automatically visit suspicious URLs
+- Never execute files based on hashes
+- Never contact suspicious IPs
+- Sanitize threat descriptions
+- Prevent XSS
+- Validate API input
+- Authenticate analyst functions
+- Implement RBAC
+- Protect analyst notes
+- Rate limit APIs
+- Protect API keys
+- Use environment variables
+- Use HTTPS
+- Audit administrative changes
+- Minimize unnecessary personal data
+
+Explain why threat-intelligence data itself can require access controls.
+
+==================================================
+45. FALSE POSITIVES & INTELLIGENCE LIMITATIONS
+==================================================
+
+Explain:
+
+An IP may be shared by many users.
+
+A domain may change ownership.
+
+Cloud infrastructure can host both benign and malicious services.
+
+Indicators can become stale.
+
+Threat feeds can disagree.
+
+Confidence varies.
+
+Correlation does not prove attribution.
+
+Therefore:
+
+Threat intelligence should support analyst decisions rather than automatically
+be treated as unquestionable truth.
+
+==================================================
+46. GITHUB UPLOAD STRATEGY
+==================================================
+
+Repository Name:
+
+Cybersecurity-Awareness-Threat-Intelligence-Dashboard
+
+Repository Description:
+
+“Defensive cybersecurity dashboard combining threat intelligence, IOC analysis, risk and confidence scoring, ATT&CK mapping, vulnerability awareness, SOC workflows, and interactive cybersecurity awareness training.”
+
+GitHub Topics:
+
+cybersecurity
+threat-intelligence
+cti
+soc
+ioc
+mitre-attack
+security-awareness
+python
+flask
+fastapi
+vulnerability-management
+incident-response
+security-analytics
+defensive-security
+
+Provide exact Git commands.
+
+Recommended commits:
+
+"Initialize cybersecurity threat intelligence dashboard"
+
+"Add synthetic threat intelligence dataset"
+
+"Implement IOC validation"
+
+"Add threat enrichment engine"
+
+"Implement risk and confidence scoring"
+
+"Add threat correlation"
+
+"Implement security alert engine"
+
+"Add ATT&CK mapping module"
+
+"Build vulnerability awareness module"
+
+"Create SOC threat dashboard"
+
+"Add IOC search functionality"
+
+"Build threat investigation view"
+
+"Create cybersecurity awareness center"
+
+"Add security awareness quiz"
+
+"Implement awareness scoring"
+
+"Add executive cybersecurity summary"
+
+"Implement automated tests"
+
+"Complete README and documentation"
+
+==================================================
+47. README GENERATION
+==================================================
+
+Generate professional README:
+
+# Cybersecurity Awareness & Threat Intelligence Dashboard
+
+## Overview
+
+## Problem Statement
+
+## Objectives
+
+## Cybersecurity Relevance
+
+## Features
+
+## Architecture
+
+## Technology Stack
+
+## Threat Intelligence
+
+## Threat Intelligence Types
+
+## IOC Analysis
+
+## Threat Enrichment
+
+## Risk Scoring
+
+## Confidence Scoring
+
+## Threat Correlation
+
+## MITRE ATT&CK
+
+## Vulnerability Awareness
+
+## Alert Management
+
+## SOC Workflow
+
+## Cybersecurity Awareness Center
+
+## Awareness Quiz
+
+## Executive Dashboard
+
+## Installation
+
+## Usage
+
+## API Documentation
+
+## Testing
+
+## Security & Privacy
+
+## Results
+
+## Limitations
+
+## Future Improvements
+
+## Screenshots
+
+## Learning Outcomes
+
+## Ethical Disclaimer
+
+## Author
+
+Include:
+
+“This project is designed exclusively for defensive cybersecurity education,
+threat-intelligence analysis, and security awareness. It does not execute,
+deploy, or interact with malicious payloads or unauthorized systems.”
+
+==================================================
+48. SCREENSHOT / PROOF CHECKLIST
+==================================================
+
+Capture:
+
+1. Project folder structure
+2. System architecture
+3. Synthetic threat dataset
+4. Threat dashboard
+5. Total threat cards
+6. Severity distribution
+7. Threat-category chart
+8. IOC distribution
+9. Threat timeline
+10. Risk distribution
+11. Confidence distribution
+12. IOC search
+13. IOC result
+14. Threat detail page
+15. Risk score
+16. Confidence score
+17. Related indicators
+18. ATT&CK mapping
+19. Vulnerability dashboard
+20. Alert dashboard
+21. Alert investigation
+22. Analyst notes
+23. Awareness Center
+24. Phishing module
+25. Password/MFA module
+26. Ransomware-awareness module
+27. Quiz
+28. Quiz result
+29. Awareness category scores
+30. Learning recommendations
+31. Executive dashboard
+32. Automated tests
+33. API response
+34. Database
+35. GitHub commits
+36. GitHub repository
+37. README preview
+
+Provide professional screenshot filenames.
+
+==================================================
+49. PROJECT REPORT
+==================================================
+
+Generate:
+
+- Abstract
+- Introduction
+- Problem Statement
+- Objectives
+- Cybersecurity Awareness
+- Cyber Threat Intelligence
+- Threat Intelligence Types
+- IOC and IOA Concepts
+- Threat Intelligence Lifecycle
+- Proposed System
+- Architecture
+- Synthetic Dataset
+- IOC Validation
+- Threat Enrichment
+- Risk Scoring
+- Confidence Scoring
+- Source Reliability
+- Threat Correlation
+- MITRE ATT&CK
+- Vulnerability Awareness
+- Alert Management
+- SOC Workflow
+- Awareness Center
+- Quiz System
+- Executive Dashboard
+- Testing
+- Security
+- Results
+- Limitations
+- Future Scope
+- Conclusion

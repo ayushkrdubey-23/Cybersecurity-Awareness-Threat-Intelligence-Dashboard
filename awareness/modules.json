@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "title": "Phishing Awareness",
+    "category": "PHISHING AWARENESS",
+    "what_is_it": "Recognize suspicious senders, urgency, credential requests and unexpected links. Verify through trusted channels.",
+    "why_it_matters": "Small defensive habits reduce avoidable security risk.",
+    "warning_signs": [
+      "Unexpected urgency",
+      "Requests for secrets or payment",
+      "Unusual sender or context"
+    ],
+    "safe_practices": [
+      "Pause and verify through a trusted channel",
+      "Use MFA and updates",
+      "Report suspected incidents"
+    ],
+    "if_something_happens": "Stop interacting, preserve relevant evidence and report through the approved security channel."
+  },
+  {
+    "id": 2,
+    "title": "Password Security",
+    "category": "PASSWORD SECURITY",
+    "what_is_it": "Use unique long passwords or passphrases and a reputable password manager. Avoid reuse.",
+    "why_it_matters": "Small defensive habits reduce avoidable security risk.",
+    "warning_signs": [
+      "Unexpected urgency",
+      "Requests for secrets or payment",
+      "Unusual sender or context"
+    ],
+    "safe_practices": [
+      "Pause and verify through a trusted channel",
+      "Use MFA and updates",
+      "Report suspected incidents"
+    ],
+    "if_something_happens": "Stop interacting, preserve relevant evidence and report through the approved security channel."
+  },
+  {
+    "id": 3,
+    "title": "MFA",
+    "category": "MFA",
+    "what_is_it": "Enable multi-factor authentication, preferably phishing-resistant methods such as passkeys where supported.",
+    "why_it_matters": "Small defensive habits reduce avoidable security risk.",
+    "warning_signs": [
+      "Unexpected urgency",
+      "Requests for secrets or payment",
+      "Unusual sender or context"
+    ],
+    "safe_practices": [
+      "Pause and verify through a trusted channel",
+      "Use MFA and updates",
+      "Report suspected incidents"
+    ],
+    "if_something_happens": "Stop interacting, preserve relevant evidence and report through the approved security channel."
+  },
+  {
+    "id": 4,
+    "title": "Social Engineering",
+    "category": "SOCIAL ENGINEERING",
+    "what_is_it": "Pause when a request creates urgency, fear, authority pressure or secrecy.",
+    "why_it_matters": "Small defensive habits reduce avoidable security risk.",
+    "warning_signs": [
+      "Unexpected urgency",
+      "Requests for secrets or payment",
+      "Unusual sender or context"
+    ],
+    "safe_practices": [
+      "Pause and verify through a trusted channel",
+      "Use MFA and updates",
+      "Report suspected incidents"
+    ],
+    "if_something_happens": "Stop interacting, preserve relevant evidence and report through the approved security channel."
+  },
+  {
+    "id": 5,
+    "title": "Safe Browsing",
+    "category": "SAFE BROWSING",
+    "what_is_it": "Use trusted sites, check context, keep browsers updated and avoid unexpected downloads.",
+    "why_it_matters": "Small defensive habits reduce avoidable security risk.",
+    "warning_signs": [
+      "Unexpected urgency",
+      "Requests for secrets or payment",
+      "Unusual sender or context"
+    ],
+    "safe_practices": [
+      "Pause and verify through a trusted channel",
+      "Use MFA and updates",
+      "Report suspected incidents"
+    ],
+    "if_something_happens": "Stop interacting, preserve relevant evidence and report through the approved security channel."
+  },
+  {
+    "id": 6,
+    "title": "Secure Wi-Fi",
+    "category": "SECURE WI-FI",
+    "what_is_it": "Use strong Wi-Fi security, change default admin credentials and avoid sensitive activity on untrusted networks.",
+    "why_it_matters": "Small defensive habits reduce avoidable security risk.",
+    "warning_signs": [
+      "Unexpected urgency",
+      "Requests for secrets or payment",
+      "Unusual sender or context"
+    ],
+    "safe_practices": [
+      "Pause and verify through a trusted channel",
+      "Use MFA and updates",
+      "Report suspected incidents"
+    ],
+    "if_something_happens": "Stop interacting, preserve relevant evidence and report through the approved security channel."
+  },
+  {
+    "id": 7,
+    "title": "Software Updates",
+    "category": "SOFTWARE UPDATES",
+    "what_is_it": "Apply security updates promptly according to organizational risk and change-management processes.",
+    "why_it_matters": "Small defensive habits reduce avoidable security risk.",
+    "warning_signs": [
+      "Unexpected urgency",
+      "Requests for secrets or payment",
+      "Unusual sender or context"
+    ],
+    "safe_practices": [
+      "Pause and verify through a trusted channel",
+      "Use MFA and updates",
+      "Report suspected incidents"
+    ],
+    "if_something_happens": "Stop interacting, preserve relevant evidence and report through the approved security channel."
+  },
+  {
+    "id": 8,
+    "title": "Ransomware Awareness",
+    "category": "RANSOMWARE AWARENESS",
+    "what_is_it": "Maintain tested backups, least privilege, segmentation, endpoint controls and incident-response readiness.",
+    "why_it_matters": "Small defensive habits reduce avoidable security risk.",
+    "warning_signs": [
+      "Unexpected urgency",
+      "Requests for secrets or payment",
+      "Unusual sender or context"
+    ],
+    "safe_practices": [
+      "Pause and verify through a trusted channel",
+      "Use MFA and updates",
+      "Report suspected incidents"
+    ],
+    "if_something_happens": "Stop interacting, preserve relevant evidence and report through the approved security channel."
+  },
+  {
+    "id": 9,
+    "title": "USB / Removable Media Safety",
+    "category": "USB / REMOVABLE MEDIA SAFETY",
+    "what_is_it": "Use approved removable media and follow organizational scanning and handling policies.",
+    "why_it_matters": "Small defensive habits reduce avoidable security risk.",
+    "warning_signs": [
+      "Unexpected urgency",
+      "Requests for secrets or payment",
+      "Unusual sender or context"
+    ],
+    "safe_practices": [
+      "Pause and verify through a trusted channel",
+      "Use MFA and updates",
+      "Report suspected incidents"
+    ],
+    "if_something_happens": "Stop interacting, preserve relevant evidence and report through the approved security channel."
+  },
+  {
+    "id": 10,
+    "title": "Data Privacy",
+    "category": "DATA PRIVACY",
+    "what_is_it": "Collect, share and retain only necessary data and follow applicable privacy policies.",
+    "why_it_matters": "Small defensive habits reduce avoidable security risk.",
+    "warning_signs": [
+      "Unexpected urgency",
+      "Requests for secrets or payment",
+      "Unusual sender or context"
+    ],
+    "safe_practices": [
+      "Pause and verify through a trusted channel",
+      "Use MFA and updates",
+      "Report suspected incidents"
+    ],
+    "if_something_happens": "Stop interacting, preserve relevant evidence and report through the approved security channel."
+  },
+  {
+    "id": 11,
+    "title": "Mobile Security",
+    "category": "MOBILE SECURITY",
+    "what_is_it": "Keep mobile OS and apps updated, use screen locks and install apps only from trusted sources.",
+    "why_it_matters": "Small defensive habits reduce avoidable security risk.",
+    "warning_signs": [
+      "Unexpected urgency",
+      "Requests for secrets or payment",
+      "Unusual sender or context"
+    ],
+    "safe_practices": [
+      "Pause and verify through a trusted channel",
+      "Use MFA and updates",
+      "Report suspected incidents"
+    ],
+    "if_something_happens": "Stop interacting, preserve relevant evidence and report through the approved security channel."
+  },
+  {
+    "id": 12,
+    "title": "Remote Work Security",
+    "category": "REMOTE WORK SECURITY",
+    "what_is_it": "Use approved devices, secure networks, MFA and organizational VPN or access controls where required.",
+    "why_it_matters": "Small defensive habits reduce avoidable security risk.",
+    "warning_signs": [
+      "Unexpected urgency",
+      "Requests for secrets or payment",
+      "Unusual sender or context"
+    ],
+    "safe_practices": [
+      "Pause and verify through a trusted channel",
+      "Use MFA and updates",
+      "Report suspected incidents"
+    ],
+    "if_something_happens": "Stop interacting, preserve relevant evidence and report through the approved security channel."
+  },
+  {
+    "id": 13,
+    "title": "Cloud Account Security",
+    "category": "CLOUD ACCOUNT SECURITY",
+    "what_is_it": "Protect cloud identities with MFA, least privilege, logging and secure recovery settings.",
+    "why_it_matters": "Small defensive habits reduce avoidable security risk.",
+    "warning_signs": [
+      "Unexpected urgency",
+      "Requests for secrets or payment",
+      "Unusual sender or context"
+    ],
+    "safe_practices": [
+      "Pause and verify through a trusted channel",
+      "Use MFA and updates",
+      "Report suspected incidents"
+    ],
+    "if_something_happens": "Stop interacting, preserve relevant evidence and report through the approved security channel."
+  },
+  {
+    "id": 14,
+    "title": "Incident Reporting",
+    "category": "INCIDENT REPORTING",
+    "what_is_it": "Report suspicious messages, account events or possible exposure promptly through official channels.",
+    "why_it_matters": "Small defensive habits reduce avoidable security risk.",
+    "warning_signs": [
+      "Unexpected urgency",
+      "Requests for secrets or payment",
+      "Unusual sender or context"
+    ],
+    "safe_practices": [
+      "Pause and verify through a trusted channel",
+      "Use MFA and updates",
+      "Report suspected incidents"
+    ],
+    "if_something_happens": "Stop interacting, preserve relevant evidence and report through the approved security channel."
+  },
+  {
+    "id": 15,
+    "title": "AI-Enabled Scam Awareness",
+    "category": "AI-ENABLED SCAM AWARENESS",
+    "what_is_it": "Treat highly personalized text, voice or images as potentially deceptive; verify independently.",
+    "why_it_matters": "Small defensive habits reduce avoidable security risk.",
+    "warning_signs": [
+      "Unexpected urgency",
+      "Requests for secrets or payment",
+      "Unusual sender or context"
+    ],
+    "safe_practices": [
+      "Pause and verify through a trusted channel",
+      "Use MFA and updates",
+      "Report suspected incidents"
+    ],
+    "if_something_happens": "Stop interacting, preserve relevant evidence and report through the approved security channel."
+  }
+]
